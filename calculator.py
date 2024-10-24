@@ -1,13 +1,17 @@
 from argparse import ArgumentParser
 
+
 def add(a: int, b: int) -> int:
     return a + b
+
 
 def min_fn(a: int, b: int) -> int:
     return min(a, b)
 
+
 def max_fn(a, b):
     return max(a, b)
+
 
 if __name__ == "__main__":
     parser = ArgumentParser()

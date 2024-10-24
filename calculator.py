@@ -3,10 +3,10 @@ from argparse import ArgumentParser
 def add(a: int, b: int) -> int:
     return a + b
 
-def min(a: int, b: int) -> int:
+def min_fn(a: int, b: int) -> int:
     return min(a, b)
 
-def max(a, b):
+def max_fn(a, b):
     return max(a, b)
 
 if __name__ == "__main__":

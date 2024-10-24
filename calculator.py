@@ -18,3 +18,5 @@ if __name__ == "__main__":
     args = parser.parse_args()
     if args.op == "add":
         print(add(args.a, args.b))
+    if args.op == "min":
+        print(min_fn(args.a, args.b))
